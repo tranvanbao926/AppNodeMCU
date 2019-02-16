@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Led 1"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLed1"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:background="@drawable/off_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="Led 2"
+            />
+
+        <Button
+            android:id="@+id/btnLed2"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:background="@drawable/off_button"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="Led 3"
+            />
+
+        <Button
+            android:id="@+id/btnLed3"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:background="@drawable/off_button"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OFF All"/>
+    <TextView
+        android:id="@+id/txtLdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="#FF0000"
+        android:text="0"/>
+    <EditText
+        android:id="@+id/txtResultAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"/>
+
+</LinearLayout>
